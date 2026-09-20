@@ -51,6 +51,7 @@ NHANES was selected as a methodologically equivalent, fully open-access alternat
 ---
 
 ## Repo Structure
+```
 .
 ├── R/
 │   ├── 01_data_pull.R        # NHANES data extraction and merge
@@ -60,6 +61,7 @@ NHANES was selected as a methodologically equivalent, fully open-access alternat
 ├── output/                   # Figures and model summaries
 ├── docs/                     # Analysis report (Quarto/R Markdown)
 └── README.md
+```
 
 ---
 
