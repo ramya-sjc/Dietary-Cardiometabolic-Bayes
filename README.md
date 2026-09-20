@@ -40,6 +40,15 @@ NHANES was selected as a methodologically equivalent, fully open-access alternat
 
 ---
 
+## Reproducing This Analysis
+
+No manual data download is required. Run `R/01_data_pull.R` — it pulls all NHANES 2017–2018 components directly via the `nhanesA` R package and saves the cleaned dataset locally. Ensure the following packages are installed before running:
+
+```r
+install.packages(c("nhanesA", "tidyverse"))
+```
+---
+
 ## Methods
 
 - **Design:** Cross-sectional observational analysis at the individual level
